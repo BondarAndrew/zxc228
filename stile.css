@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+}
+
+.main {
+  background-image: url("/bg.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding-top: 12px;
+}
+
+.content {
+  width: 1320px;
+  margin: auto;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 40px;
+  color: white;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.link:hover {
+  color: orange;
+}
+
+.button-top {
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid orange;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.tochka {
+  color: orange;
+}
